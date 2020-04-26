@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class InputOutput{
- public static void main (String [] args){
+ public static void main(String [] args){
   Scanner scanner = new Scanner(System.in);
   String nama;
   int jumlahSks;
@@ -12,7 +12,7 @@ public class InputOutput{
   System.out.println("Hai, "+nama);
 
   System.out.print("Masukkan jumlah SKS yang sudah ditempuh : ");
-  jumlahSks= scanner.nextInt();
+  jumlahSks = scanner.nextInt();
 
   System.out.print("Masukkan IPK Sementara : ");
   IPK = scanner.nextDouble();
