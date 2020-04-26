@@ -12,13 +12,12 @@ public class InputOutput{
   System.out.println("Hai, "+nama);
 
   System.out.print("Masukkan jumlah SKS yang sudah ditempuh : ");
-  jumlahSks= scanner.nextLine();
-  System.out.println();
+  jumlahSks= scanner.nextInt();
 
   System.out.print("Masukkan IPK Sementara : ");
-  IPK = scanner.nextLine();
+  IPK = scanner.nextDouble();
 
-  double jumlah = IPK* jumlahSks;
-  System.out.println("Total Nilai = "+jumlah);
+  double jumlah = IPK * jumlahSks;
+  System.out.print("Total Nilai = "+jumlah);
  }
 }
